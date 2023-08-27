@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+p {
+  color: #70747a;
+}
+
+/* Navbar */
+
+.navbar-container {
+  width: 100%;
+  height: 90px;
+  background-color: #0d1013;
+  padding: 0 3rem;
+}
+
+nav {
+  position: relative;
+}
+
+.logo {
+  width: 80px;
+  margin-top: 15px;
+}
+
+.navbar-items {
+  position: absolute;
+  right: 0;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  display: inline-block;
+  color: red;
+}
+
+.navbar-items li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 28px;
+}
+
+.navbar-items a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navbar-items a:hover {
+  color: #686565;
+}
+
+.default-btn {
+  padding: 15px 20px;
+  background-color: #2cc76a;
+  border-radius: 5px;
+}
+
+.navbar-items .default-btn:hover {
+  background-color: #2cc76a;
+  color: #fff;
+}
+
+/* main banner */
+
+.main-banner {
+  background-image: url(../Images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1 {
+  font-size: 54px;
+}
+
+.main-banner p {
+  font-size: 32px;
+}
