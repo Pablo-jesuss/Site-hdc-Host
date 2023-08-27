@@ -20,7 +20,7 @@ p {
 .navbar-container {
   width: 100%;
   height: 90px;
-  background-color: #0d1013;
+  background-color: #000000;
   padding: 0 3rem;
 }
 
@@ -29,7 +29,7 @@ nav {
 }
 
 .logo {
-  width: 80px;
+  width: 70px;
   margin-top: 15px;
 }
 
@@ -61,13 +61,13 @@ nav {
 
 .default-btn {
   padding: 15px 20px;
-  background-color: #2cc76a;
+  background-color: #2176c5;
   border-radius: 5px;
 }
 
 .navbar-items .default-btn:hover {
-  background-color: #2cc76a;
-  color: #fff;
+  background-color: #2176c5;
+  color: #999494;
 }
 
 /* main banner */
@@ -93,4 +93,48 @@ nav {
 
 .main-banner p {
   font-size: 32px;
+}
+
+/* services */
+
+.services-container {
+  padding: 5rem 0;
+}
+
+.services-container ul {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.services-container li {
+  flex: 1 1 200px;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.fas {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.fa-shield-alt {
+  color: #2176c5;
+}
+
+.fa-rocket {
+  color:#ef3f29;
+}
+
+.fa-comments {
+  color: #2cc76a;
+}
+
+.services-container h3 {
+  margin-bottom: 25px;
+}
+
+.services-container p {
+  line-height: 24px;
 }
