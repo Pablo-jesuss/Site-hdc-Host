@@ -61,13 +61,13 @@ nav {
 
 .default-btn {
   padding: 15px 20px;
-  background-color: #2176c5;
+  background-color: #16e64a;
   border-radius: 5px;
 }
 
 .navbar-items .default-btn:hover {
-  background-color: #2176c5;
-  color: #999494;
+  background-color: #1cbb43;
+  color: #c5c2c2;
 }
 
 /* main banner */
